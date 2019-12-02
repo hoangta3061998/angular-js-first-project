@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script language="javascript" src="js/angular.min.js"></script>
+    </head>
+    <body>
+        <div ng-app="myapp">
+            <div ng-controller="myCtrl">
+                {{todos}}
+                <div ng-repeat="todo in todos">
+                    <h3> {{todo.title}}</h3>
+                </div>
+                <h1>{{test}}</h1>
+            </div>
+        </div>
+        <script src="js/sv.js"></script>
+    </body>
+</html>
